@@ -1,0 +1,7 @@
+{
+  "name": "az900-e2e",
+  "private": true,
+  "type": "module",
+  "scripts": { "test": "node smoke.mjs" },
+  "devDependencies": { "puppeteer-core": "^24.0.0" }
+}

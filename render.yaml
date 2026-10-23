@@ -1,0 +1,12 @@
+# One-click deploy: https://render.com/deploy (connect the GitHub repo). Free plan is enough.
+services:
+  - type: web
+    name: az900-prep-buddy
+    runtime: docker
+    plan: free
+    healthCheckPath: /api/health
+    envVars:
+      - key: ANTHROPIC_API_KEY   # optional: without it the AI Buddy falls back to offline notes
+        sync: false
+      - key: BUDDY_RATE_LIMIT_PER_MIN
+        value: "20"

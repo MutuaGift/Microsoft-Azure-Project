@@ -1,0 +1,11 @@
+{
+  "name": "az900-prep-buddy",
+  "version": "1.0.0",
+  "description": "Unofficial AZ-900 exam prep: quizzes, flashcards, mock exam, readiness tracker, study planner, AI study buddy.",
+  "private": true,
+  "scripts": {
+    "test": "node --test \"tests/*.test.js\"",
+    "serve": "python3 -m http.server 8080"
+  },
+  "devDependencies": { "jsdom": "^26.0.0" }
+}

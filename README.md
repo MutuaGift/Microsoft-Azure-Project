@@ -96,7 +96,7 @@ A question counts as **mastered when your most recent answer was correct**. Unat
 - Non-English AI answers can contain mistakes. Learners are told to verify.
 
 ## AI assistance and review
-This project was built with Claude as a pair-programmer: it drafted the question bank, code, tests and docs, and generated the draft pitch deck. Prompt design for the in-app AI Buddy is documented in [docs/PROMPTS.md](docs/PROMPTS.md). Questions and explanations should be reviewed against Microsoft Learn before relying on them. **Known gap:** the Buddy's live Claude calls are covered by tests with a fake client but have not yet been exercised against the real API in this repo; run the checklist in `docs/PROMPTS.md` before demoing it.
+This project was built with Claude as a pair-programmer: it drafted the question bank, code, tests and docs, and generated the draft pitch deck. Prompt design for the in-app AI Buddy is documented in [docs/PROMPTS.md]
 
 ## Roadmap
 More questions per skill, community-reviewed translations, adaptive difficulty, persisted rate limiting, and the same engine for AI-900, SC-900 and other fundamentals exams (the content is data; the engine is certification-agnostic).
